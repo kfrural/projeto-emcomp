@@ -1,0 +1,118 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+.img {
+    position: relative;
+    left: 400px;
+}
+
+.capaMusica1 {
+    float: left;
+    position: relative;
+    left: 70px;
+
+}
+.capaMusica10{
+    position: relative;
+    left: 1100px;
+}
+
+.capaMusica2 {
+    float: left;
+    position: absolute;
+    left: 390px;
+}
+
+.capaMusica3 {
+    float: left;
+    position: absolute;
+    left: 690px;
+}
+
+.capaMusica4 {
+    float: left;
+    position: absolute;
+    left: 1000px;
+}
+
+.capaMusica5 {
+    float: left;
+    position: absolute;
+    left: 70px;
+}
+
+.capaMusica6 {
+    float: left;
+    position: absolute;
+    left: 390px;
+}
+
+.capaMusica7 {
+    float: left;
+    position: absolute;
+    left: 690px;
+}
+
+.capaMusica8 {
+    float: left;
+    position: absolute;
+    left: 1000px;
+}
+
+.capaMusica9 {
+    float: left;
+    position: absolute;
+    left: 1270px;
+}
+
+.textoContato {
+    font-size: 26px;
+    position: relative;
+    left: 60px;
+}
+
+.cabecalhoLetra {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.texto {
+    font-size: 20px;
+    text-align: justify;
+    color: #111;
+}
+
+.inicio {
+    background-image: linear-gradient(to right, rgb(151, 151, 226), rgb(244, 233, 139));
+}
+
+.imgFim {
+    float: left;
+}
+
+#link {
+    color: #111;
+}

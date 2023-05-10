@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" contente="Karla Ferreira">
+    <meta name="profile" href="https://www.instagram.com/kf.rural/">
+    <meta name="description" contente="Site de um Músico ">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Matogrosso e Mathias</title>
+</head>
+
+<body class="inicio">
+
+    <ul>
+        <li><a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+                    <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+                </svg> Home</a></li>
+        <li><a href="musicas.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-music-note" viewBox="0 0 16 16">
+                    <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z" />
+                    <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                    <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z" />
+                </svg> Músicas</a></li>
+        <li><a href="contato.html">
+                <font color="#FF0000"><b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path
+                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg> Contato</b></font>
+            </a></li>
+        <li>
+            <div>
+                <a type="button" value="Zoom" onclick="minhaNotificao()" class="js">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                        <path
+                            d="M10.344 11.742c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1 6.538 6.538 0 0 1-1.398 1.4z" />
+                        <path fill-rule="evenodd"
+                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5z" />
+                    </svg> Zoom</a>
+            </div>
+            <script>
+                function minhaNotificao() {
+                    if (alert) {
+                        alert("Utilize as combinações de teclas em seu teclado, como demonstrado abaixo, para obter um zoom com qualidade:\nCtrl + aumentar zoom\nCtrl - diminuir zoom\nCtrl 0 sem zoom")
+                    }
+                }
+            </script>
+            <br>
+        </li>
+
+    </ul>
+    <header class="cabecalho">
+        <img src="logo.png" width="600" height="100">
+    </header>
+    <div class="texto">
+        <p>
+            Matogrosso & Mathias é uma dupla sertaneja do Brasil originária de 1966. A dupla sertaneja Matogrosso &
+            Mathias
+            iniciou sua trajetória originalmente com João Batista Bernardo, o Matogrosso (Vista Alegre do Alto, 25 de
+            novembro de 1949; o apelido se deve porque ele viveu em Cáceres, Mato Grosso por muitos anos) e Anísio
+            Roberto de Carvalho, o Mathias (Uberlândia ou Carmo do Paranaíba, 14 de fevereiro de 1945). Com o
+            tempo Isaac Júnior, sobrinho de Matogrosso compôs a dupla no lugar de Anísio, como Mathias e atualmente quem
+            entrou no lugar de Isaac é o músico Rafael Belchior, afilhado de Anísio.
+        </p>
+        <img src="https://uploads.metropoles.com/wp-content/uploads/2019/11/05164950/Matogrosso-e-Mathias-RED.jpeg"
+            alt="dupla Matogrosso e Mathias" class="img" width="600" height="400">
+        <p>
+            Matogrosso & Mathias tem a alcunha de “a mais romântica do Brasil”. A dupla é reconhecida por difundir a
+            música
+            sertaneja em uma época que os “caipiras” ainda estavam à margem da imprensa no Brasil, abrindo caminho para
+            vários artistas do mesmo gênero de muito sucesso hoje. Entre os hits de sua extensa carreira, destacam-se
+            "Pele
+            de Maçã", "Tentei te Esquecer", "Idas e Voltas", "Memórias", "24 Horas de Amor", "Frente a Frente",
+            "Sábado",
+            "De Igual pra Igual" e "Pedaço de Minha Vida", que deu à dupla, ainda em 1976, seu primeiro disco de ouro.
+        </p>
+    </div>
+
+
+</body>
+
+</html>
